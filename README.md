@@ -32,4 +32,4 @@ Before running the services, you must have the following installed and running:
 The `auth-service` and `employee-service` rely on a shared PostgreSQL instance. You can run one easily using Docker:
 
 ```bash
-docker run --name my-postgres -e POSTGRES_PASSWORD=yourpassword -e POSTGRES_USER=postgres -e POSTGRES_DB=employee_db -p 5432:5432 -d postgres
+docker run --name my-postgres -e POSTGRES_PASSWORD=admin123 -e POSTGRES_USER=postgres -e POSTGRES_DB=employee_db -p 5432:5432 -d postgres
