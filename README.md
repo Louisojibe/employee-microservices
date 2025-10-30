@@ -18,7 +18,7 @@ This system is divided into five distinct services, designed to be highly scalab
 
 ---
 
-## 🛠️ Prerequisites
+## Prerequisites
 
 Before running the services, you must have the following installed and running:
 
